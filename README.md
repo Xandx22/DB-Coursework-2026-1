@@ -797,70 +797,226 @@ El núcleo del sistema está construido sobre ** PostgreSQL 17 ** como motor de 
 
 ###    Vistas previas
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/a075a538-4e33-4dc8-9226-384b3e245d85" alt="Captura de pantalla 1" width="100%" style="border-radius: 8px;"/>
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/90ce794d-3ef9-4890-877a-eecdbfb2cfeb" alt="Captura de pantalla 2" width="100%" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github.com/user-attachments/assets/59b146c8-2797-4b5e-bb20-574eaacff1ba" alt="Captura de pantalla 3" width="800" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-</table>
+< tabla align = " centro " >
+  < tr >
+    < td  ancho = " 50% "  alinear = " centro " >
+  		< img width = " 1919 " height = " 866 " alt = " Captura de pantalla 2026-01-09 153400 " src = " https://github.com/user-attachments/assets/a075a538-4e33-4dc8-9226-384b3e245d85 " />
+    </ td >
+    < td ancho = " 50% " alineal = " centro " >
+		< img width = " 1915 " height = " 869 " alt = " Captura de pantalla 2026-01-09 153148 " src = " https://github.com/user-attachments/assets/90ce794d-3ef9-4890-877a-eecdbfb2cfeb " />
+    </ td >
+  </ tr >
+  < tr >
+    < td  ancho = " 50% "  alinear = " centro " >
+      < img  width = " 1919 "  height = " 868 "  alt = " Captura de pantalla 2026-01-09 153459 "  src = " https://github.com/user-attachments/assets/59b146c8-2797-4b5e-bb20-574eaacff1ba " />
+    </td>​​
+  </ tr >
+</ table >
 
 ###    Enlaces
 *   ** Código fuente: **   [ Repositorio en GitHub ] ( https://github.com/edu12344/Practica-5.git )
 *   ** Demo en vivo: **   [ Demo en vivo ] ( ( https://ligafutrapido.kesug.com/ ) )
 ---
 
-Protyecto 16 
-# Lavanderiaproyecto
-Proyecto final 
-PROYECTO (LAVANDERIA AA)
+🦁 Sistema Web de Gestión de Zoológico
 
-Integrantes: 
--Perez Flores Arale
--Juarez Hipolito Marco Antonio 
+📘 Descripción del proyecto
 
-# Sistema de Gestión de Lavandería
+Este proyecto consiste en el desarrollo de un sistema web para la gestión de un zoológico, el cual permite administrar información relacionada con animales, habitats, cuidadores y alimentación mediante una base de datos relacional en MySQL y una interfaz web en PHP.
 
-Este proyecto es un sistema web para la gestión de clientes y pedidos de una lavandería.  
-Permite el registro e inicio de sesión de clientes, así como la creación y consulta de pedidos.  
-Fue desarrollado utilizando PHP, MySQL y RedBeanPHP, con una interfaz web sencilla y funcional.
+El sistema fue diseñado como un caso de estudio académico, aplicando conceptos de:
 
-# Tecnologías utilizadas
-- PHP
-- MySQL
-- RedBeanPHP
-- HTML5
-- CSS3
-- Git y GitHub
+Modelado de bases de datos
 
-  #Capturas de pantalla
-  <img width="1600" height="749" alt="image" src="https://github.com/user-attachments/assets/e10c9448-465b-4601-9c5b-ecc3861c6c46" />
-  <img width="1600" height="749" alt="image" src="https://github.com/user-attachments/assets/f2014201-3c99-4489-a769-eef51fc18484" />
-<img width="718" height="846" alt="image" src="https://github.com/user-attachments/assets/b5ad39b5-07a8-4263-8a6f-db8869bc3494" />
-<img width="733" height="671" alt="image" src="https://github.com/user-attachments/assets/0e3786aa-d4d4-4a35-8b17-f68c31a07b7d" />
-<img width="782" height="531" alt="image" src="https://github.com/user-attachments/assets/9d9e783f-2cdc-4649-948e-c86c1933ec3b" />
-<img width="811" height="586" alt="image" src="https://github.com/user-attachments/assets/d43c6e6e-a31d-475f-adda-8619cef87796" />
-<img width="1101" height="840" alt="image" src="https://github.com/user-attachments/assets/6e3b3020-f3f3-4732-bede-29751b51228c" />
-<img width="1120" height="472" alt="image" src="https://github.com/user-attachments/assets/0c7e3e61-15e4-43eb-871d-d2b77fe662ac" />
+Modelo Entidad-Relación
+
+Modelo Entidad-Relación Extendido
+
+Modelo Relacional
+
+Seguridad básica en aplicaciones web
 
 
 
-# Repositorio del proyecto
-https://github.com/AralePerez/Lavanderiaproyecto
+---
 
-# Página web oficial del proyecto
-https://www.basedatos.kesug.com/index.php?
+🎯 Problema a solucionar
+
+La administración de un zoológico requiere manejar una gran cantidad de información sensible y relacionada entre sí, como:
+
+Datos de animales y su estado de salud
+
+Asignación de habitats
+
+Control de cuidadores
+
+Registro de alimentación
+
+
+Cuando esta información se maneja de forma manual o sin un sistema centralizado, pueden ocurrir:
+
+Pérdida de información
+
+Errores en registros
+
+Falta de control y seguridad
+
+Dificultad para consultar o actualizar datos
+
+
+Este proyecto busca centralizar, organizar y proteger dicha información mediante un sistema digital.
+
+
+---
+
+🧩 Alcance del sistema
+
+El sistema permite:
+
+Registro e inicio de sesión de usuarios
+
+Control de acceso mediante sesiones
+
+Consulta de datos desde la base de datos
+
+Inserción de nuevos registros
+
+Eliminación de registros existentes
+
+Administración de múltiples tablas desde una sola interfaz
 
 
 
+---
+
+🧱 Arquitectura del sistema
+
+El proyecto sigue una arquitectura cliente-servidor, separando:
+
+HTML → Interfaz gráfica
+
+PHP → Lógica del sistema
+
+MySQL → Almacenamiento de datos
+
+Java y Maven → Api
+
+
+Además, se separa claramente la vista de la lógica, facilitando mantenimiento y comprensión del código.
+
+
+---
+
+🗂 Estructura del proyecto
+
+/zoo_project
+│
+├── index.html          # Vista del login
+├── index.php           # Lógica de autenticación
+├── registro.html       # Formulario de registro
+├── registrar.php       # Inserción de usuarios
+├── dashboard.html      # Vista principal tras login
+├── dashboard.php       # Validación de sesión
+├── admin.html          # Interfaz de administración
+├── admin.php           # Consultas, inserciones y borrados
+├── logout.php          # Cierre de sesión
+├── config.php          # Conexión a la base de datos
+├── style.css           # Diseño visual
+└── zoo_db.sql          # Base de datos completa
+
+
+---
+
+🗄 Base de datos
+
+La base de datos zoo_db está compuesta por las siguientes tablas principales:
+
+Animal
+
+Habitat
+
+Cuidador
+
+Alimento
+
+RegistroAlimentacion
+
+usuarios
+
+
+Características:
+
+Uso de llaves primarias
+
+Relaciones uno a muchos y muchos a muchos
+
+Datos de prueba incluidos
+
+Contraseñas almacenadas de forma segura (hash)
+
+
+
+---
+
+🔐 Seguridad del sistema
+
+El sistema implementa medidas básicas de seguridad:
+
+Autenticación mediante login
+
+Manejo de sesiones (session_start)
+
+Acceso restringido al panel de administración
+
+Uso de prepared statements para evitar inyección SQL
+
+Validación de formularios
+
+
+
+---
+
+🖥 Interfaz del sistema
+
+El sistema cuenta con una interfaz:
+
+Clara e intuitiva
+
+Colores azul y blanco
+
+Formularios simples y funcionales
+
+Menú desplegable para seleccionar tablas
+
+Operaciones realizadas en la misma página
+
+
+
+---
+
+👤 Usuario de prueba
+
+Para probar el sistema se incluye el siguiente usuario:
+
+Correo: admin@zoo.com
+
+Contraseña: admin123
+
+
+
+---
+
+🖼 Imágenes del proyecto
+
+(Aquí puedes insertar imágenes)
+
+[Login del sistema](imagenes/login.png)
+![Panel principal](imagenes/dashboard.png)
+![Panel de administración](imagenes/admin.png)
+
+*   ** Código fuente: **   [ Repositorio en GitHub ] ( https://github.com/Xandx22/Proyecto )
+*   ** Demo en vivo: **   [ Demo estático ] ( ( https://xandx22.github.io/Proyecto/htdocs/htdocs/index) )
+*   ** Demo estático: **   [ Demo en vivo ] ( ( https://zoologicogestion.infinityfree.me) )
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
 
